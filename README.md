@@ -4,7 +4,8 @@
 
 
 # E-R Diagram
-![미션 drawio](https://github.com/user-attachments/assets/5b02b575-61ef-4045-a11b-df015b25c607)
+![18530e0e-d2ca-405b-a090-7ae50ea01aa4](https://github.com/user-attachments/assets/ed80126f-256c-47be-a8de-7289af2768d9)
+
 
 
 
@@ -12,6 +13,8 @@
 1. store 커피 매장
 
 `store_id` (PK) : ID
+
+`store_regist_num` : 매장 등록 번호
 
 `store_name` : 매장 명
 
@@ -32,11 +35,14 @@
 
 `employee_id` (PK) : ID
 
+`id` : 직원 사번
+
 `name` : 이름
 
 `role` : 직책/역할 (점주, 점장, 매니저 등)
 
 `store_id` (FK) : 커피 매장 ID 
+
 
 
 3. menu 메뉴
