@@ -52,6 +52,7 @@
 | GET | /stores/{id} | Read | 매장 조회 |
 | POST | /stores | Create | 매장 등록 |
 | PATCH | /stores/{id} | Update | 매장 운영 유/무 변경 |
+| DELETE | /stores/{id} | Delete | 매장 삭제 |
 | GET | /employees/{id} | Read | 직원 조회 |
 | POST |  /employees | Create | 직원 등록 |
 | PATCH | /employees/{id} | Update | 직원 직책 변경 |
