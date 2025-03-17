@@ -74,4 +74,5 @@
 | 500 | 서버 오류 |
 
 
-      
+# API POSTMAN
+###### https://documenter.getpostman.com/view/21277070/2sAYkDLf9w#839dcf5a-72dd-4eda-921f-9bdffeab1d5f
