@@ -42,7 +42,7 @@ class PresentationViewController(
 
         model.addAttribute("projects", projects)
 
-        return "presentation/proejcts"
+        return "presentation/projects"
     }
 
 }
