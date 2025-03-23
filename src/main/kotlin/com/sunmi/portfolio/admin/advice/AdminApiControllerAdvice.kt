@@ -7,6 +7,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException
 import org.springframework.web.bind.annotation.ExceptionHandler
 import org.springframework.web.bind.annotation.RestControllerAdvice
 
+// 예외 처리만 따로 controller 내 모아두는 곳, ControllerAdvice 내 exceptionHandler 처리
 @RestControllerAdvice
 class AdminApiControllerAdvice {
     val log = LoggerFactory.getLogger(AdminApiControllerAdvice::class.java)
