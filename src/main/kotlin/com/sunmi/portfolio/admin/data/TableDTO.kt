@@ -11,7 +11,7 @@ data class TableDTO(
 
     // 데이터테이블 정보
     companion object{
-        fun <T : Any> form(classInfo: KClass<T>, entities: List<Any>, vararg filterings: String): TableDTO {
+        fun <T : Any> from(classInfo: KClass<T>, entities: List<Any>, vararg filterings: String): TableDTO {
             val name = classInfo.simpleName ?: "Unknown"
             val columns = createColumns(classInfo, *filterings)
             val records = entities.map { entity ->
